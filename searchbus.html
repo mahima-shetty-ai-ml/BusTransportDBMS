@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        }
+
+
+        input[type=submit] {
+        width: 100%;
+        background-color: #120f3b73;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        font-size: large;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+        background-color: white;
+        color: #120f3b73;
+        border-color:  #120f3b73;
+        }
+        
+        .formbeautify{
+            width: 80%;
+            height: 80%;
+            position: relative;
+            font-family: Georgia;
+            background-color: black;
+            color: white;
+            padding: 20px 20px 20px 20px;
+            margin: auto;
+            border-radius: 0px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .selectquery {
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.918)
+        
+
+
+        }
+
+        .selectquery a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+
+        .selectquery a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+
+
+
+        .selectnext {
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.918)
+        
+
+
+        }
+
+        .selectnext a {
+        float: left;
+        color: #3d305eb7;
+        text-align: center;
+        padding: 14px 0px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+
+        .selectnext a:hover {
+        background-color: #3d305eb7;
+        color: black;
+        }
+        
+        body {
+        background-image: url("bus1.jpg");
+        height: 500px;
+        color: white;
+        width: fit-content;
+        padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 30px;
+            
+        }
+
+        
+
+
+
+        .content{
+            border: 1px solid rgb(255, 255, 255);
+            background-color: rgba(0, 0, 0, 0.801);
+            
+            
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 30px;
+            
+        }
+        
+        </style>
+</head>
+<body>
+    
+    <div class="content">
+        <div class="selectquery" style="width: 100%; ">
+            <a href="add.html" style="width: 22%;">ADD DATA</a>
+            <a href="viewall.html" style="width: 22%;" >VIEW DATA</a>
+            <a href="delete.html" style="width: 22%;" >DELETE DATA</a>
+            <a href="view.html" style="width: 22%;" >SEARCH DATA</a>
+        </div>
+        <br><br>
+        <div class="selectnext" style="width: 100%; ">
+            <a href="searchbooking.html" style="width: 16.66%; color: white;">SEARCH BY BOOKING_NO</a>
+            <a href="searchpassenger.html" style="width: 16.66%; color: white;" >SEARCH BY PASSENGER NAME</a>
+            <a href="searchsource.html" style="width: 16.66%; color: white;" >SEARCH BY SOURCE DATE</a>
+            <a href="searchdestination.html" style="width: 16.66%; color: white;" >SEARCH BY DESTINATION DATE</a>
+            <a href="searchbus.html" style="width: 16.66%; color: white;" >SEARCH BY BUS NO.</a>
+            <a href="searchbusinfo.html" style="width:16.66%; color: white;" >SEARCH THE BUS</a>
+        </div>
+        <br><br>
+
+        <div class = "formbeautify"> 
+        
+            <form action="searchbus.php" method="post">
+                <label for="searchbus">Bus No.</label>
+                <input type="text" id="searchbus" name="searchbus" placeholder="Enter bus no...">
+            
+                <br><br>
+            
+                <input type="submit" value="Submit">
+            </form>
+            
+        </div>
+
+
+
+    </div>
+      
+
+      
+</body>
+</html>
