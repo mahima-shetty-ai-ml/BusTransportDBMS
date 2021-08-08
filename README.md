@@ -1,5 +1,5 @@
 
-# Project Title
+# Bus Transport Management DBMS
 
 Created Locally running DBMS Project on the Bus Transport Management System using MySQL
 
@@ -12,7 +12,12 @@ YouTube Link: https://www.youtube.com/watch?v=5A5cxL2wxDM&t=1362s
   - Adding Name Of the passengers, Place to Pickup, Place Destination, Scheduled Time & Date
 * Viewing Passengers, Buses, Driver and Assistant Details
   - Name Of the passengers, Place to Pickup, Place Destination, Scheduled Time & Date
-               
+* Deleting Passengers
+  - Delete by the Name Of the passengers or the Booking ID
+* Searching Passengers, Buses, Driver and Assistant Details
+  - Search by Booking ID, Name of the passenger, Source Date, Destination Date
+  - Search the Bus Details by Bus No. and Bus
+                              
 
 
 
@@ -48,8 +53,8 @@ DataBase Management Skills, MySQL, HTML, CSS...
 
   
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherinempeterson.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/mahima-shetty-ai-ml/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/mahima-shetty/)
 
 
   
